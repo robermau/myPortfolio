@@ -3,6 +3,7 @@ import Hero from './components/Hero.js';
 import NavBar from './components/NavBar';
 import AboutMe from './components/AboutMe';
 import './App.css';
+import Projects from './components/Project';
 
 
 
@@ -13,7 +14,9 @@ function App() {
        <NavBar/>
        <Header/>
       <Hero />
+     
       <AboutMe/>
+      <Projects/>
       </>
   );
 }

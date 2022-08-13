@@ -16,38 +16,39 @@ function AboutMe() {
                     broad understanding of teamwork. I have a lot of
                     potential and I would really like to continue training.
                 </p>
-            
-           
-
-               <div>
-                <h1 className="pt-10 pl-10 text-3xl font-bold text-center uppercase">My strengths</h1>
-                <ul className="pl-10 mb-5 text-center">
+   
+                <h1 className="pt-10 pl-10 mb-20 text-3xl font-bold text-center uppercase">My strengths</h1>
+               <div className="flex flex-row justify-center items-center ">
+               
+                <ul className=" mb-5  flex flex-col justify-center items-center mr-20  ">
 
                     <li className="mt-5 font-bold">
-                        Skilled
+                        Skilled ✅
                     </li>
                     <li className="mt-5 font-bold">
 
-                        {/* Solidary */}
+                         Solidary ✅
                     </li>
                     <li className="mt-5 font-bold">
 
-                        Co-worker
+                        Co-worker ✅
                     </li>
                     <li className="mt-5 font-bold">
 
-                        Responsible
+                        Responsible ✅
                     </li>
                     <li className="mt-5 font-bold ">
-                        Efficient
+                        Efficient ✅
 
                     </li>
+                    
                 </ul>
+                <img className=" pr-5 rounded-full h-80  mr-20" src={programer}/>
                 </div>
              
-           
+               
                 </div>
-                <img className="pt-24 pr-5 rounded-full" src={programer}/>
+              
             </div>
         </>
     )
