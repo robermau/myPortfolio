@@ -2,14 +2,14 @@
 
 function NavBar() {
  return (
-    <div className="absolute w-80 h-12 mt-4 ml-4 z-10 flex flex-row justify-between">
-    <button className=" mr-4 font-text hover:bg-white text-white font-normal hover:text-black  py-2 px-10 border border-white hover:border-transparent rounded-3xl">
-       Project
+    <div className="absolute z-10 flex flex-row justify-between h-12 mt-4 ml-4 w-80">
+    <button className="z-10 px-10 py-2 mr-4 font-normal text-white border border-white font-text hover:bg-white hover:text-black hover:border-transparent rounded-3xl">
+      <a href="./Projects.js">Project</a> 
     </button>
-    <button className=" mr-4 font-text hover:bg-white text-white font-normal hover:text-black  py-2 px-10 border border-white hover:border-transparent rounded-3xl">
+    <button className="px-10 py-2 mr-4 font-normal text-white border border-white font-text hover:bg-white hover:text-black hover:border-transparent rounded-3xl">
        Technology's
     </button>
-    <button className=" mr-4 font-text hover:bg-white text-white font-normal hover:text-black py-2 px-10 border border-white hover:border-transparent rounded-3xl">
+    <button className="px-10 py-2 mr-4 font-normal text-white border border-white font-text hover:bg-white hover:text-black hover:border-transparent rounded-3xl">
        Contact
     </button>
  </div>

@@ -5,19 +5,19 @@ function Projects() {
     return (
         <>
            
-            <h1 className="text-white bg-black font-medium text-3xl flex flex-row justify-center pt-20">My Projects Web</h1>
+            <h1 className="flex flex-row justify-center pt-20 text-3xl font-medium text-white bg-black">My Projects Web</h1>
           
-            <div className="bg-black flex justify-around items-center  w-full h-full flex-row">
+            <div className="flex flex-row items-center justify-around w-full h-full pt-20 bg-black">
             
-            <div className="absolute">
-                <div className="group ml-10 mb-10 h-96 overflow-hidden relative shadow-lg max-w-xs">
-                    <a href="#" className="absolute z-10 top-0 bottom-0 left-0 right-0" />
+            <div className="absolute ">
+                <div className="relative max-w-xs mb-10 ml-10 overflow-hidden shadow-lg group h-96">
+                    <a href="https://gea-store.herokuapp.com" className="absolute top-0 bottom-0 left-0 right-0 z-10" />
                     <img
-                        className="block h-96 rounded-3xl  group-hover:opacity-40 object-contain  transition-opacity duration-700"
+                        className="block object-contain transition-opacity duration-700 bg-white h-96 rounded-3xl group-hover:opacity-40"
                         src="https://i.imgur.com/11edXTK.png"
                     />
                     <div
-                        className="absolute bg-black flex items-center group-hover:-top-0 group-hover:opacity-100 duration-700 top-full right-0 w-full opacity-0 h-1/2 transition-all">
+                        className="absolute right-0 flex items-center w-full transition-all duration-700 bg-black opacity-0 group-hover:-top-0 group-hover:opacity-100 top-full h-1/2">
                         <div className=""
                         >
                             <video className="w-full" src="https://i.imgur.com/EE44EMI.mp4"
@@ -26,39 +26,39 @@ function Projects() {
                             </video>
                         </div>
                     </div>
-                    <div className="absolute  bg-gradient-to-br duration-700 from-green-800 to-blue-800 text-white block left-0 right-0 top-full text-base h-1/2 w-full opacity-50 
-                                    transition-all group-hover:top-1/2 group-hover:opacity-100">
+                    <div className="absolute left-0 right-0 block w-full text-base text-white transition-all duration-700 opacity-50 bg-gradient-to-br from-green-800 to-blue-800 top-full h-1/2 group-hover:top-1/2 group-hover:opacity-100">
                         <div className="py-4 text-xs px-7">
                             <div className="text-xl font-bold"> Gea-Store</div>
-                            <div className="overflow-ellipsis overflow-hidden whitespace-nowrap">
-                                <span className="uppercase text-gray-400 whitespace-nowrap text-xs md:text-sm">Developer:</span>
-                                <span className="whitespace-nowrap overflow-hidden overflow-ellipsis relative z-20">
-                                    <a href="https://store.steampowered.com/developer/DigitalExtremes?snr=1_4_600__629"> Proyect in group</a>												</span>
+                            <div className="overflow-hidden overflow-ellipsis whitespace-nowrap">
+                                <span className="text-xs text-gray-400 uppercase whitespace-nowrap md:text-sm">Developer:</span>
+                                <span className="relative z-20 overflow-hidden whitespace-nowrap overflow-ellipsis">
+                                    <a href="https://gea-store.herokuapp.com"> Proyect in group</a>												</span>
                             </div>
-                            <div className="whitespace-nowrap overflow-hidden overflow-ellipsis relative z-20">
-                                <span className="uppercase text-gray-400 whitespace-nowrap text-xs md:text-sm">Technology's:</span>
-                                <span className="whitespace-nowrap overflow-hidden overflow-ellipsis relative z-20">
-                                    <p>ReactJS,MongoDB,Express,Tailwind</p> 									</span>
+                            <div className="relative z-20 overflow-hidden whitespace-nowrap overflow-ellipsis">
+                                <span className="text-xs text-gray-400 uppercase whitespace-nowrap md:text-sm">Technology's:</span>
+                                <span className="relative z-20 overflow-hidden whitespace-nowrap overflow-ellipsis">
+                                    <p>ReactJS,MongoDB,Express,Tailwind,<br/> Material UI, CSS</p> 									</span>
                             </div>
 
                         </div>
-                        <div className="absolute left-0  pl-7 pt-1">
-                            <button href="https://mytinerary-perez.herokuapp.com/" className="px-4 text-base block text-green-300 rounded-sm border-2 border-opacity-20 bg-gradient-to-b duration-700 from-green-400 to-green-800">
-                               Buy Here
+                        <div className="absolute left-0 pt-1 pl-7">
+                            <button  className="block px-4 text-base text-green-300 duration-700 border-2 rounded-sm border-opacity-20 bg-gradient-to-b from-green-400 to-green-800">
+                              <a href="https://gea-store.herokuapp.com">Buy Here</a> 
                             </button>
                         </div>
                     </div>
+                 
                 </div>
             </div>
             <div>
-                <div className="group  ml-10 mb-10 h-96 overflow-hidden relative shadow-lg max-w-xs">
-                    <a href="#" className="absolute z-10 top-0 bottom-0 left-0 right-0" />
+                <div className="relative max-w-xs mb-10 ml-10 overflow-hidden shadow-lg group h-96">
+                    <a href="https://mytinerary-perez.herokuapp.com/" className="absolute top-0 bottom-0 left-0 right-0 z-10" />
                     <img
-                        className="block h-96 rounded-3xl   group-hover:opacity-40 object-cover transition-opacity duration-700"
-                        src="https://i.imgur.com/LHAh9YA.png"
+                        className="block object-cover transition-opacity duration-700 h-96 rounded-3xl group-hover:opacity-40"
+                        src="https://i.imgur.com/X0ZkDkq.png"
                     />
                     <div
-                        className="absolute bg-black flex items-center group-hover:-top-0 group-hover:opacity-100 duration-700 top-full right-0 w-full opacity-0 h-1/2 transition-all">
+                        className="absolute right-0 flex items-center w-full transition-all duration-700 bg-black opacity-0 group-hover:-top-0 group-hover:opacity-100 top-full h-1/2">
                         <div className=""
                         >
                             <video className="w-full" src="https://i.imgur.com/RmDbLCW.mp4"
@@ -67,24 +67,23 @@ function Projects() {
                             </video>
                         </div>
                     </div>
-                    <div className="absolute  bg-gradient-to-br duration-700 from-green-800 to-blue-800 text-white block left-0 right-0 top-full text-base h-1/2 w-full opacity-50 
-                                    transition-all group-hover:top-1/2 group-hover:opacity-100">
+                    <div className="absolute left-0 right-0 block w-full text-base text-white transition-all duration-700 opacity-50 bg-gradient-to-br from-green-800 to-blue-800 top-full h-1/2 group-hover:top-1/2 group-hover:opacity-100">
                         <div className="py-4 text-xs px-7">
                             <div className="text-xl font-bold"> My Tinerary</div>
-                            <div className="overflow-ellipsis overflow-hidden whitespace-nowrap">
-                                <span className="uppercase text-gray-400 whitespace-nowrap text-xs md:text-sm">Developer:</span>
-                                <span className="whitespace-nowrap overflow-hidden overflow-ellipsis relative z-20">
+                            <div className="overflow-hidden overflow-ellipsis whitespace-nowrap">
+                                <span className="text-xs text-gray-400 uppercase whitespace-nowrap md:text-sm">Developer:</span>
+                                <span className="relative z-20 overflow-hidden whitespace-nowrap overflow-ellipsis">
                                     <a href="https://store.steampowered.com/developer/DigitalExtremes?snr=1_4_600__629"> Roberto Perez</a>												</span>
                             </div>
-                            <div className="whitespace-nowrap overflow-hidden overflow-ellipsis relative z-20">
-                                <span className="uppercase text-gray-400 whitespace-nowrap text-xs md:text-sm">Technology's:</span>
-                                <span className="whitespace-nowrap overflow-hidden overflow-ellipsis relative z-20">
+                            <div className="relative z-20 overflow-hidden whitespace-nowrap overflow-ellipsis">
+                                <span className="text-xs text-gray-400 uppercase whitespace-nowrap md:text-sm">Technology's:</span>
+                                <span className="relative z-20 overflow-hidden whitespace-nowrap overflow-ellipsis">
                                     <p>ReactJS,MongoDB,Express,Tailwind</p> 									</span>
                             </div>
 
                         </div>
-                        <div className="absolute left-0  pl-7 pt-1">
-                            <button href="https://mytinerary-perez.herokuapp.com/" className="px-4 text-base block text-green-300 rounded-sm border-2 border-opacity-20 bg-gradient-to-b duration-700 from-green-400 to-green-800">
+                        <div className="absolute left-0 pt-1 pl-7">
+                            <button href="https://mytinerary-perez.herokuapp.com/" className="block px-4 text-base text-green-300 duration-700 border-2 rounded-sm border-opacity-20 bg-gradient-to-b from-green-400 to-green-800">
                                 Travel here
                             </button>
                         </div>
@@ -92,14 +91,14 @@ function Projects() {
                 </div>
             </div>
             <div>
-                <div className="group ml-10 mb-10 h-96 overflow-hidden relative shadow-lg max-w-xs">
-                    <a href="#" className="absolute z-10 top-0 bottom-0 left-0 right-0" />
+                <div className="relative max-w-xs mb-10 ml-10 overflow-hidden shadow-lg group h-96">
+                    <a href="https://amazingeventsrmp.netlify.app/" className="absolute top-0 bottom-0 left-0 right-0 z-10" />
                     <img
-                        className="block h-96 rounded-3xl   group-hover:opacity-40  transition-opacity duration-700"
-                        src="https://i.imgur.com/wEh5EjA.png"
+                        className="block transition-opacity duration-700 h-96 rounded-3xl group-hover:opacity-40"
+                        src="https://i.imgur.com/Qbz82nv.png"
                     />
                     <div
-                        className="absolute bg-black flex items-center group-hover:-top-0 group-hover:opacity-100 duration-700 top-full right-0 w-full opacity-0 h-1/2 transition-all">
+                        className="absolute right-0 flex items-center w-full transition-all duration-700 bg-black opacity-0 group-hover:-top-0 group-hover:opacity-100 top-full h-1/2">
                         <div className=""
                         >
                             <video className="w-full" src="https://i.imgur.com/fLvua7i.mp4"
@@ -108,24 +107,23 @@ function Projects() {
                             </video>
                         </div>
                     </div>
-                    <div className="absolute  bg-gradient-to-br duration-700 from-green-800 to-blue-800 text-white block left-0 right-0 top-full text-base h-1/2 w-full opacity-50 
-                                     transition-all group-hover:top-1/2 group-hover:opacity-100">
+                    <div className="absolute left-0 right-0 block w-full text-base text-white transition-all duration-700 opacity-50 bg-gradient-to-br from-green-800 to-blue-800 top-full h-1/2 group-hover:top-1/2 group-hover:opacity-100">
                         <div className="py-4 text-xs px-7">
                             <div className="text-xl font-bold"> Amazing Events</div>
-                            <div className="overflow-ellipsis overflow-hidden whitespace-nowrap">
-                                <span className="uppercase text-gray-400 whitespace-nowrap text-xs md:text-sm">Developer:</span>
-                                <span className="whitespace-nowrap overflow-hidden overflow-ellipsis relative z-20">
-                                    <a href="https://store.steampowered.com/developer/DigitalExtremes?snr=1_4_600__629"> Roberto Perez</a>												</span>
+                            <div className="overflow-hidden overflow-ellipsis whitespace-nowrap">
+                                <span className="text-xs text-gray-400 uppercase whitespace-nowrap md:text-sm">Developer:</span>
+                                <span className="relative z-20 overflow-hidden whitespace-nowrap overflow-ellipsis">
+                                    <a href="https://amazingeventsrmp.netlify.app/"> Roberto Perez</a>												</span>
                             </div>
-                            <div className="whitespace-nowrap overflow-hidden overflow-ellipsis relative z-20">
-                                <span className="uppercase text-gray-400 whitespace-nowrap text-xs md:text-sm">Technology's:</span>
-                                <span className="whitespace-nowrap overflow-hidden overflow-ellipsis relative z-20">
-                                    <p>ReactJS,MongoDB,Express,Tailwind</p> 									</span>
+                            <div className="relative z-20 overflow-hidden whitespace-nowrap overflow-ellipsis">
+                                <span className="text-xs text-gray-400 uppercase whitespace-nowrap md:text-sm">Technology's:</span>
+                                <span className="relative z-20 overflow-hidden whitespace-nowrap overflow-ellipsis">
+                                    <p>HTML , CSS , JavaScript</p> 									</span>
                             </div>
 
                         </div>
-                        <div className="absolute left-0  pl-7 pt-1">
-                            <button href="https://mytinerary-perez.herokuapp.com/" className="px-4 text-base block text-green-300 rounded-sm border-2 border-opacity-20 bg-gradient-to-b duration-700 from-green-400 to-green-800">
+                        <div className="absolute left-0 pt-1 pl-7">
+                            <button href="https://amazingeventsrmp.netlify.app/" className="block px-4 text-base text-green-300 duration-700 border-2 rounded-sm border-opacity-20 bg-gradient-to-b from-green-400 to-green-800">
                                 Look any Festival
                             </button>
                         </div>

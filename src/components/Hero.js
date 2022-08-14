@@ -4,31 +4,34 @@ import videoBg from '../assets/videoBg.mp4'
 import yo from '../assets/yo.png'
 
 
+
+
+
 function Hero() {
 
     return (
-        <div className='flex justify-center items-center'>
+        <div className='flex items-center justify-center'>
             <Fade right>
-                <img className=" absolute w-60 pb-80 ml-64 mt-12 max-w-full h-auto rounded-full" src={yo} alt="yo" />
+                <img className="absolute h-auto max-w-full mt-12 ml-64 rounded-full w-60 pb-80" src={yo} alt="yo" />
 
-                <div className='flex flex-row z-10 absolute mt-40'>
-                    <div>
-                    <button className=" mr-4   font-text hover:bg-white text-white font-normal hover:text-black py-2 px-10 border border-white hover:border-transparent rounded-3xl">
-                        My Cv English
+                <div className='absolute z-10 flex flex-row mt-40'>
+                    
+                    <button className="z-10 px-10 py-2 mr-4 font-normal text-white border border-white font-text hover:bg-white hover:text-black hover:border-transparent rounded-3xl">
+                <a href='./PerezRobertoEnglish.pdf'>My Cv English</a>
                     </button>
-                    </div>
+                  
                     <div>
-                    <button className=" mr-4 font-text  hover:bg-white text-white font-normal hover:text-black py-2 px-10 border border-white hover:border-transparent rounded-3xl">
-                        Mi Cv Español
+                    <button className="px-10 py-2 mr-4 font-normal text-white border border-white font-text hover:bg-white hover:text-black hover:border-transparent rounded-3xl">
+                         <a href='./PerezRoberto.pdf'>Mi Cv Español</a>
                     </button>
                     </div>
                 </div>
 
-                <h1 className="absolute flex-col justify-center items-center font-medium text-4xl text-white">Hello world👋!! I'm Roberto Mauro Perez <br /> <span className=' text-2xl '>I'm Full Stack Developer, With a taste for technology for a long time, I like to help others and be in continuous learning.</span> </h1>
+                <h1 className="absolute flex-col items-center justify-center text-4xl font-medium text-white">Hello world👋!! I'm Roberto Mauro Perez <br /> <span className='text-2xl '>I'm Full Stack Developer, With a taste for technology for a long time, I like to help others and be in continuous learning.</span> </h1>
 
             </Fade>
 
-            <video className=' w-full h-screen object-cover' autoPlay loop src={videoBg} />
+            <video className='object-cover w-full h-screen ' autoPlay loop src={videoBg} />
 
 
         </div>
