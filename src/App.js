@@ -1,22 +1,30 @@
-import Header from './components/Header';
-import Hero from './components/Hero.js';
-import NavBar from './components/NavBar';
-import AboutMe from './components/AboutMe';
+
+
 import './App.css';
-import Projects from  "./components/Project"
+import Project from './components/Project'
+import { Route, Routes } from 'react-router-dom';
+import Home from './assets/pages/Home';
+
+
 
 
 
 
 function App() {
   return (
-  <>
-       <NavBar/>
-       <Header/>
-      <Hero />
-     <AboutMe/>
-     <Projects/>
-      </>
+    <>
+      
+      
+   <Routes>
+    <Route path='/' element={<Home/>}/> 
+    <Route path='/Projects' element={<Project/>}/>
+    
+   </Routes>
+   
+     
+
+     
+    </>
   );
 }
 
