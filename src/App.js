@@ -3,7 +3,8 @@
 import './App.css';
 import Project from './components/Project'
 import { Route, Routes } from 'react-router-dom';
-import Home from './assets/pages/Home';
+import Home from './pages/Home';
+
 
 
 
@@ -20,7 +21,7 @@ function App() {
     <Route path='/Projects' element={<Project/>}/>
     
    </Routes>
-   
+  
      
 
      
