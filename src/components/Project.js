@@ -12,7 +12,7 @@ function Projects() {
         <div className=" flex flex-col  ">
         <video className=' absolute   opacity-50 ' autoPlay loop src={bgProjects} />
         <Link to='/'>
-            <div className='text-white font-medium flex p-10 items-center bg-black '>
+            <div className='text-white font-medium flex p-20 items-center bg-black '>
           
                 <svg xmlns="http://www.w3.org/2000/svg" className=" z-10  h-20 w-20" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
                     <path strokeLinecap="round" strokeLinejoin="round" d="M11 15l-3-3m0 0l3-3m-3 3h8M3 12a9 9 0 1118 0 9 9 0 01-18 0z" />
