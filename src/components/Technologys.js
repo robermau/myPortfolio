@@ -16,9 +16,9 @@ export const Technologys = () => {
                 <h2 className="  z-10  font-normal text-2xl">Back to Home</h2>
             </div>
             </Link>
-        <img className='absolute  object-cover w-auto h-auto -z-50' src={bgImage}/>
+        <img className='absolute   w-full h-full -z-50' src={bgImage}/>
 		<div className="mx-auto flex flex-col md:flex-row">
-			<div className="flex flex-col w-full lg:w-3/5 p-8">
+			<div className="flex flex-col w-full lg:w-3/5 ">
 				<h1 className="text-3xl md:text-5xl text-center text-white font-bold my-4 leading-relaxed md:leading-snug">My Technology's
 				</h1>
 				

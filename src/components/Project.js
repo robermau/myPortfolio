@@ -8,9 +8,9 @@ function Projects() {
 
     return (
         <>
+        <video className=' absolute h-screen object-cover w-full  opacity-50 ' autoPlay loop src={bgProjects} />
+        <div className=" flex flex-col h-full w-auto  ">
         
-        <div className=" flex flex-col  ">
-        <video className=' absolute   opacity-50 ' autoPlay loop src={bgProjects} />
         <Link to='/'>
             <div className='text-white font-medium flex p-20 items-center bg-black '>
           
